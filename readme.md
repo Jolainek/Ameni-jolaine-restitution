@@ -1,6 +1,8 @@
 # Réinterprétation du tableau *Mère & Enfant*
 **Projet multimédia — Animation 3D & vidéo**
 
+<video src="assets/videos/video.mp4" controls width="600"></video>
+
 # Introduction
 Ce projet propose une réinterprétation du tableau *Mère & Enfant*, symbole d’innocence et de vulnérabilité. En lien avec le thème du Massacre des Innocents, cette innocence apparaît fragile, menacée et en voie d’effacement. L’objectif est de traduire cette tension à travers une animation 3D et une vidéo composite, où le tableau se décompose, se transforme et révèle ses couches internes.
 
@@ -30,3 +32,4 @@ Elle propose ainsi une lecture sensible et intime, où l’innocence n’est pas
 ## Conclusion
 Le projet met en scène un **dialogue entre effacement et persistance**, où *Mère & Enfant* apparaît à la fois vulnérable et inaltérable.  
 La transformation devient un moyen de questionner la fragilité de l’innocence, la mémoire de l’image et la résistance de ce qui demeure lorsqu’on traverse les couches visibles.
+
