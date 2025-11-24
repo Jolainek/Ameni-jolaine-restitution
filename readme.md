@@ -1,81 +1,32 @@
-# MindAR Template ESAD 2025
+# Réinterprétation du tableau *Mère & Enfant*
+**Projet multimédia — Animation 3D & vidéo**
 
-Une application de Réalité Augmentée web utilisant MindAR, A-Frame et Vite pour le suivi d'images et la visualisation de modèles 3D.
+# Introduction
+Ce projet propose une réinterprétation du tableau *Mère & Enfant*, symbole d’innocence et de vulnérabilité. En lien avec le thème du Massacre des Innocents, cette innocence apparaît fragile, menacée et en voie d’effacement. L’objectif est de traduire cette tension à travers une animation 3D et une vidéo composite, où le tableau se décompose, se transforme et révèle ses couches internes.
 
-## Prérequis
+# Concept général : Dissolution et révélation
+L’idée centrale est de montrer comment l’innocence peut se dissoudre en surface tout en persistant dans la matière profonde de l’image. Le tableau fond progressivement, dévoilant pigments, textures et couleurs brutes. Cette dégradation contrôlée n’efface pas le sens : elle révèle ce qui demeure, ce qui résiste.
 
-- [Node.js](https://nodejs.org/)
-- npm (fourni avec Node.js)
+## Travail vidéo et superpositions
+Dans After Effects, plusieurs versions filtrées du tableau sont superposées puis fondues entre elles. Chaque couche altère l’image, mais malgré ces transformations successives, l’original réapparaît toujours. Cette résistance visuelle souligne l’idée que l’innocence peut être perturbée ou déformée, mais reste perceptible dans les détails.
 
-## Installation
+## Mise en espace et animation 3D
+Dans Blender, le tableau est placé sur un chevalet virtuel au sein d’un environnement tridimensionnel. L’animation simule une fonte lente des formes et de la matière, évoquant une disparition progressive. Ce processus met en valeur la matérialité de l’œuvre et la fragilité de sa surface picturale.
 
-1. Cloner le dépôt :
+## Intention artistique
+Ce projet explore la manière dont une image peut perdre son apparence tout en conservant son identité profonde.  
+La fonte des formes et les superpositions vidéo agissent comme des révélateurs : en dissolvant la surface, elles exposent les pigments et les textures invisibles à l’œil nu.  
+L’objectif n’est pas de détruire l’œuvre, mais d’en dévoiler les strates internes, comme si l’on pénétrait dans sa mémoire matérielle.
 
-```bash
-git clone https://github.com/RobinMoretti/MindAR-Template-esad-2025.git
-cd MindAR-Template-esad-2025
-```
+L’approche s’inspire des pratiques contemporaines de restauration numérique, des analyses en macrophotographie des peintures anciennes et des installations immersives travaillant la matière et la disparition.  
+Elle propose ainsi une lecture sensible et intime, où l’innocence n’est pas seulement menacée, mais aussi révélée par ce qui se cache sous les couches visibles.
 
-2. Installer les dépendances :
+## Technologies & outils
+- **IA & génération 3D** : exploration des textures, matières et atmosphères  
+- **Blender** : animation en 3D et mise en espace du tableau  
+- **After Effects** : filtres superposés, transitions, fondus progressifs  
+- **Photoshop** : recherches colorimétriques, textures, tests visuels  
 
-```bash
-npm install
-```
-
-## Développement
-
-Démarrer le serveur de développement :
-
-```bash
-npm run dev
-```
-
-L'application sera disponible à l'adresse `https://localhost:5173` (HTTPS est requis pour l'accès à la caméra) et le `:5173` peut varier.
-
-**Important:** Vous devez accéder à l'application via HTTPS pour utiliser la caméra. Le projet utilise `vite-plugin-mkcert` pour générer automatiquement un certificat SSL local.
-
-## Utilisation
-
-1. Ouvrir l'application dans un navigateur mobile ou sur ordinateur avec une webcam
-2. Autoriser les permissions de la caméra lorsque demandé
-3. Pointer votre caméra vers l'une des images cibles
-4. Le modèle 3D apparaîtra sur la cible détectée
-
-## Créer vos propres images cibles
-
-Pour créer votre propre fichier `targets.mind` avec vos images personnalisées :
-
-1. Rendez-vous sur le [compilateur MindAR](https://hiukim.github.io/mind-ar-js-doc/tools/compile)
-2. Uploadez vos images cibles (des images avec des détails riches fonctionnent mieux)
-3. Téléchargez le fichier `.mind` généré
-4. Remplacez le fichier `src/targets.mind` par votre nouveau fichier
-5. Mettez à jour l'attribut `targetIndex` dans votre HTML selon l'ordre de vos images
-
-**Conseils pour de bonnes images cibles :**
-
-- Utilisez des images avec beaucoup de détails et de contraste
-- Évitez les images trop uniformes ou répétitives
-- La taille recommandée est d'au moins 480x480 pixels
-
-## Structure du projet
-
-```text
-├── index.html          # Fichier HTML principal avec la scène A-Frame
-├── package.json        # Dépendances et scripts
-├── vite.config.js      # Configuration Vite avec HTTPS
-├── public/             # Assets statiques
-└── src/
-    ├── main.js         # Point d'entrée JavaScript
-    ├── style.css       # Styles
-    └── targets.mind    # Images cibles compilées MindAR
-```
-
-## Technologies utilisées
-
-- [MindAR](https://hiukim.github.io/mind-ar-js-doc/) - Bibliothèque AR pour le suivi d'images
-- [A-Frame](https://aframe.io/) - Framework WebVR
-- [Vite](https://vitejs.dev/) - Outil de build et serveur de développement
-
-## Licence
-
-MIT
+## Conclusion
+Le projet met en scène un **dialogue entre effacement et persistance**, où *Mère & Enfant* apparaît à la fois vulnérable et inaltérable.  
+La transformation devient un moyen de questionner la fragilité de l’innocence, la mémoire de l’image et la résistance de ce qui demeure lorsqu’on traverse les couches visibles.
